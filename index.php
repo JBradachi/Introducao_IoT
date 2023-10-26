@@ -31,7 +31,7 @@ header("Refresh:15");
                       }?></h6>
                       <span >º</span> <span >graus</span>
 
-               <h5 >humidade <span>| %</span></h                    
+               <h5 >humidade <span>| %</span></h5>                    
             <h6><?php 
                       
                       $query = mysqli_query($conn, "SELECT * FROM monitor_ht.registros order by leituraId desc limit 1");
